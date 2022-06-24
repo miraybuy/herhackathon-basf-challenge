@@ -3,30 +3,29 @@
 }
 video {
   width: 100%;
-  height: 70%;
+  height: 100%;
   object-fit: cover;
-  object-position: center;
   position: fixed;
   left: 0;
   right: 0;
   top: 0;
   bottom: 0;
-  opacity: 0.3;
+  z-index: -1;
 }
 .header-container .header-content {
   display: flex;
 }
 .header-container {
-  background-color: rgb(176, 189, 194);
+  background-color: rgb(51, 51, 51, 0.4);
   margin-top: 20px;
 }
 .header-content {
-  padding: 20px 10px;
+  padding: 15px 10px;
 }
 
 h1 {
   margin: 3rem 0.8rem;
-  color: rgb(0, 0, 0);
+  color: black;
   font-weight: 800;
   font-size: 2.5rem;
 }
@@ -37,7 +36,23 @@ ul {
 li {
   padding: 10px;
   font-size: 1.3rem;
+  color: white;
 }
-.col-3 {
-  background-color: rgb(101, 172, 29);
+button {
+  margin: 1rem;
+  font-size: 1.2rem;
+  border: none;
+  background-color: rgb(101, 172, 29, 1);
+  color: white;
+  padding: 10px 20px;
+}
+button:hover {
+  background-color: gray;
+  color: white;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+}
+i {
+  font-size: 1.8rem;
+  padding-left: 10px;
 }

@@ -26,9 +26,12 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <video autoplay loop muted poster="visuals/VideoOfWindmills.mp4">
-      <source src="visuals/VideoOfWindmills.mp4" />
-    </video>
+    <div class="video-wrapper">
+      <video autoplay loop muted poster="visuals/VideoOfWindmills.mp4">
+        <source src="visuals/VideoOfWindmills.mp4" type="video/mp4" />
+      </video>
+    </div>
+
     <div class="container">
       <div class="header-container">
         <div class="row header-content">
@@ -52,8 +55,12 @@
         </div>
       </div>
       <h1>How we become CO<sub>2</sub> neutral</h1>
-      <input type="text" placeholder="Find out how sustainable BASF is" />
-      <i class="fa-solid fa-camera"></i>
+
+      <button type="submit" class="btn-primary">
+        Find out how sustainable your product is
+
+        <i class="fa-solid fa-camera"></i>
+      </button>
     </div>
   </body>
 </html>
