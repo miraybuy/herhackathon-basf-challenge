@@ -34,24 +34,34 @@
 
     <div class="container">
       <div class="header-container">
-        <div class="row header-content d-none d-lg-block">
+        <div class="row header-content">
           <div class="col-9 sustainability-score">
-            BASF Sustainability score: <span class="score">81%</span>
+            BASF Sustainability score: <strong class="score">81%</strong>
           </div>
 
           <div class="col-3">
-            <img
-              src="visuals/BASF-logo.svg"
-              alt=" BASF logo"
-              width="150px"
-              class="mt-3"
-            />
+            <a
+              href="https://www.basf.com/global/en/who-we-are/sustainability/we-drive-sustainable-solutions/quantifying-sustainability/value-to-society.html"
+            >
+              <img
+                src="visuals/BASF-logo.svg"
+                alt=" BASF logo"
+                width="150px"
+                id="results_logo"
+            /></a>
           </div>
         </div>
       </div>
-      <h2>CHECK OUT THE DISTRIBUTION OF THIS ITEM ACROSS GLOBE</h2>
+      <h2 class="text-center">
+        CHECK OUT THE DISTRIBUTION OF THIS ITEM ACROSS GLOBE
+      </h2>
       <img src="visuals/image.png" alt="heatmap" id="heatmap" />
-      <div class="row results-segment">
+      <img
+        src="visuals/Product-Impact.gif"
+        alt="product impact gif"
+        id="product-impact"
+      />
+      <div class="row" id="results-segment">
         <div class="col-3">RESOURCE USE</div>
         <div class="col-6">ENERGY EXPENDITURE</div>
         <div class="col-3">HEALTH SCORE</div>
